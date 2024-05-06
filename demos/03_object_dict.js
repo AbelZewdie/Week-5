@@ -31,10 +31,10 @@ for(let i=0; i < keyList.length; i++){
 }
 
 
-const person = {firstName: "Abel", lastName: "Zewdie"}
-person.age = 26; //add new key value pair using dot notation
+const abel = {firstName: "Abel", lastName: "Zewdie"}
+abel.age = 26; //add new key value pair using dot notation
 
-console.log(person.firstName, person.lastName, person.age);
+console.log(abel.firstName, abel.lastName, abel.age);
 
 function displayPerson(p){
   return `
@@ -43,5 +43,5 @@ function displayPerson(p){
 }
 
 const dandy = { firstName: "Dandy", lastName: "Yankee Poodle", age: 3 }
-console.log(displayPerson(Abel)); //pass arguement from person
-console.log(displayPerson(Dandy));
+console.log(displayPerson(abel)); //pass arguement from person
+console.log(displayPerson(dandy));
