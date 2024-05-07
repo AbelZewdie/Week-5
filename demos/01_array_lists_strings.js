@@ -1,25 +1,25 @@
 
 // JAVASCRIPT ARRAYS (AKA lists)
 
-fruit = [] //array literal - empty
+fruitList = [] //array literal - empty
 
-fruit = ["apple", "banana", "cherry"]
-console.log(fruit[2]) //cherry
+fruitList = ["apple", "banana", "cherry"]
+console.log(fruitList[2]) //cherry
 
-fruit.push("pear")
-fruit.push("orange")
-fruit.push("grape")
+fruitList.push("pear")
+fruitList.push("orange")
+fruitList.push("grape")
 
-console.log(fruit.length); //6
-console.log(fruit[fruit.length-1]); //always the last one. (5)
+console.log(fruitList.length); //6
+console.log(fruitList[fruitList.length-1]); //always the last one. (5)
 
-console.log(fruit);
-console.log(fruit.pop()); //destructive
-console.log(fruit[fruit.length-1]); //always last one
+console.log(fruitList);
+console.log(fruitList.pop()); //destructive
+console.log(fruitList[fruitList.length-1]); //always last one
 
 //LOOP
-for(let i = 0; i < fruit.length; i++){
-  console.log(i, fruit[i]);
+for(let i = 0; i < fruitList.length; i++){
+  console.log(i, fruitList[i]);
 }
 
 
