@@ -1,0 +1,43 @@
+const fruits = [{ name: "apple", color: "red", calories: 95 },
+{ name: "orange", color: "orange", calories: 45 },
+{ name: "banana", color: "yellow", calories: 105 },
+{ name: "coconut", color: "white", calories: 159 },
+{ name: "pineapple", color: "yellow", calories: 37 }];
+
+// finding properties by index
+// Code ==> 
+// console.log(fruits[0].color); 
+// console.log(fruits[1].color);
+// console.log(fruits[2].color);
+// console.log(fruits[3].color);
+// console.log(fruits[fruits.length - 1].color);
+
+//finding properties by index
+// Code ==> 
+// console.log(fruits[0].name);
+// console.log(fruits[1].name);
+// console.log(fruits[2].name);
+// console.log(fruits[3].name);
+// console.log(fruits[fruits.length - 1].name);
+
+//////////////////////////////////////////////////////////////////
+//To add a new object | PUSH METHOD
+// Code ==> fruits.push({name: "grapes", color: "purple", calories: 62})
+
+//To remove the last object | POP METHOD
+// Code ==> fruits.pop(); //Which is Pineapple.
+
+//To remove certain Indices.
+// Code ==> // fruits.splice(1, 2); 
+//Remove orange and banana | it uses index
+
+////////////////////////////////////////////////////////////////////
+//forEach() METHOD to loop though the element of the array.
+// Code ==> 
+// fruits.forEach(fruit => console.log(fruit.name));
+// fruits.forEach(fruit => console.log(fruit.color));
+// fruits.forEach(fruit => console.log(fruit.calories));
+
+/////////////////////////////////////////////////////////////////////
+//map() Method will run each eleement through a function and return a new array.
+
